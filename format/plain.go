@@ -19,7 +19,7 @@ func (f *PlainMarkdown) Bold(text string) (string, error) {
 // CodeBlock wraps the provided code as a code block. The provided language is
 // ignored as it is not supported in plain markdown.
 func (f *PlainMarkdown) CodeBlock(language, code string) (string, error) {
-	return formatcore.CodeBlock(code), nil
+	return formatcore.GFMCodeBlock(language, code), nil
 }
 
 // Header converts the provided text into a header of the provided level. The
