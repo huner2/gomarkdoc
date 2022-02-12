@@ -34,5 +34,3 @@ require (
 	gopkg.in/ini.v1 v1.62.0 // indirect
 	mvdan.cc/xurls/v2 v2.2.0
 )
-
-replace github.com/princjef/gomarkdoc => github.com/huner2/gomarkdoc
