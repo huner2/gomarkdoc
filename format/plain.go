@@ -2,6 +2,8 @@ package format
 
 import (
 	"fmt"
+	"strings"
+	"path/filepath"
 
 	"github.com/huner2/gomarkdoc/format/formatcore"
 	"github.com/huner2/gomarkdoc/lang"
