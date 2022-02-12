@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/matryer/is"
-	"github.com/princjef/gomarkdoc/lang"
-	"github.com/princjef/gomarkdoc/logger"
+	"github.com/huner2/gomarkdoc/lang"
+	"github.com/huner2/gomarkdoc/logger"
 )
 
 func TestFunc_Level_standalone(t *testing.T) {
