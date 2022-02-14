@@ -1,3 +1,0 @@
-output: "{{.Dir}}/README.md"
-tags:
-  - tagged

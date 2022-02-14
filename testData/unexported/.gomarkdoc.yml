@@ -1,2 +1,0 @@
-output: "{{.Dir}}/README.md"
-includeUnexported: true
